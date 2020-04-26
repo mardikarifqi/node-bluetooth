@@ -13,15 +13,14 @@
   ],
   "dependencies": {
     "bindings": "^1.5.0",
-    "bluetooth-serial-port": "^2.2.7",
-    "copyfiles": "^2.2.0"
+    "bluetooth-serial-port": "^2.2.7"
   },
   "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
+    "node": ">= 12.16.x",
+    "npm": ">= 6.14.x"
   },
   "scripts": {
-    "install": "node node_modules/copyfiles/copyfiles -f node_modules/bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
+    "install": "node ../node_modules/copyfiles/copyfiles -f node_modules/bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
   },
   "license": "MIT",
   "author": "lsong",
@@ -29,7 +28,7 @@
     "example": "example"
   },
   "devDependencies": {
-    "prebuild": "^9.1.1"
+    "prebuild": "^10.0.0"
   },
   "repository": {
     "type": "git",
