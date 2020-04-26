@@ -21,7 +21,7 @@
     "npm": ">= 1.1.x"
   },
   "scripts": {
-    "install": "node ../copyfiles/copyfiles -f node_modules/bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
+    "install": "node node_modules/copyfiles/copyfiles -f node_modules/bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
   },
   "license": "MIT",
   "author": "lsong",
