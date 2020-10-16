@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "bindings": "^1.5.0",
-    "bluetooth-serial-port": "^2.2.7"
+    "bluetooth-serial-port": "git+https://github.com/tinyprinter/node-bluetooth-serial-port.git"
   },
   "engines": {
     "node": "12.4.x",
