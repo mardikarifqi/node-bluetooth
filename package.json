@@ -13,14 +13,15 @@
   ],
   "dependencies": {
     "bindings": "^1.5.0",
-    "bluetooth-serial-port": "git+https://github.com/tinyprinter/node-bluetooth-serial-port.git"
+    "bluetooth-serial-port": "git+https://github.com/tinyprinter/node-bluetooth-serial-port.git",
+    "copyfiles": "^2.1.1"
   },
   "engines": {
-    "node": "12.4.x",
+    "node": ">= 12.4.x",
     "npm": ">= 6.14.x"
   },
   "scripts": {
-    "install": "node ../copyfiles/copyfiles -f node_modules/bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
+    "install": "node ../copyfiles/copyfiles -f ../bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
   },
   "license": "MIT",
   "author": "lsong",
