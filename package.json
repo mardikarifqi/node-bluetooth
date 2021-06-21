@@ -13,7 +13,9 @@
   ],
   "dependencies": {
     "bindings": "^1.5.0",
-    "bluetooth-serial-port": "git+https://github.com/tinyprinter/node-bluetooth-serial-port.git"
+    "bluetooth-serial-port": "git+https://github.com/tinyprinter/node-bluetooth-serial-port.git",
+    "electron-rebuild": "^2.3.5",
+    "copyfiles": "^2.4.1"
   },
   "engines": {
     "node": ">= 12.4.x",
@@ -29,8 +31,6 @@
     "example": "example"
   },
   "devDependencies": {
-    "copyfiles": "^2.4.1",
-    "electron-rebuild": "^2.3.5",
     "prebuild": "^10.0.0"
   },
   "repository": {
