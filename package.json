@@ -21,7 +21,7 @@
     "npm": ">= 6.14.x"
   },
   "scripts": {
-    "install": "node ../copyfiles/copyfiles -f ../bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
+    "install": "../bin/electron-rebuild && node ../copyfiles/copyfiles -f ../bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
   },
   "license": "MIT",
   "author": "lsong",
@@ -29,7 +29,8 @@
     "example": "example"
   },
   "devDependencies": {
-    "prebuild": "^10.0.0"
+    "prebuild": "^10.0.0",
+    "electron-rebuild": "^2.3.5"
   },
   "repository": {
     "type": "git",
