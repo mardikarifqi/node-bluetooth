@@ -22,8 +22,7 @@
     "npm": ">= 6.14.x"
   },
   "scripts": {
-    "rebuild": "electron-rebuild -f -w bluetooth-serial-port",
-    "install": "npm rebuild && node ../copyfiles/copyfiles -f ../bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
+    "install": "electron-rebuild -f -w bluetooth-serial-port && node ../copyfiles/copyfiles -f ../bluetooth-serial-port/build/Release/BluetoothSerialPort.node Release"
   },
   "license": "MIT",
   "author": "lsong",
